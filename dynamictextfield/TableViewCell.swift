@@ -26,8 +26,6 @@ class TableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // self.removeButton.isHidden = fa
-        // Initialization code
     }
     
     @IBAction func onTapAddButton(_ sender: AnyObject) {
