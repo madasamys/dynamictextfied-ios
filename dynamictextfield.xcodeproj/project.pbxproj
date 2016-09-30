@@ -14,6 +14,8 @@
 		28BCAEA31D9CEF3000EFF829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BCAEA11D9CEF3000EFF829 /* LaunchScreen.storyboard */; };
 		28BCAEAE1D9CEF3000EFF829 /* dynamictextfieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BCAEAD1D9CEF3000EFF829 /* dynamictextfieldTests.swift */; };
 		28BCAEB91D9CEF3000EFF829 /* dynamictextfieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BCAEB81D9CEF3000EFF829 /* dynamictextfieldUITests.swift */; };
+		28BCAEC71D9CEFA500EFF829 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BCAEC61D9CEFA500EFF829 /* CustomTableViewController.swift */; };
+		28BCAEC91D9CF0E000EFF829 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BCAEC81D9CF0E000EFF829 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		28BCAEB41D9CEF3000EFF829 /* dynamictextfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamictextfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BCAEB81D9CEF3000EFF829 /* dynamictextfieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamictextfieldUITests.swift; sourceTree = "<group>"; };
 		28BCAEBA1D9CEF3000EFF829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BCAEC61D9CEFA500EFF829 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		28BCAEC81D9CF0E000EFF829 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				28BCAE981D9CEF3000EFF829 /* AppDelegate.swift */,
 				28BCAE9A1D9CEF3000EFF829 /* ViewController.swift */,
+				28BCAEC81D9CF0E000EFF829 /* TableViewCell.swift */,
+				28BCAEC61D9CEFA500EFF829 /* CustomTableViewController.swift */,
 				28BCAE9C1D9CEF3000EFF829 /* Main.storyboard */,
 				28BCAE9F1D9CEF3000EFF829 /* Assets.xcassets */,
 				28BCAEA11D9CEF3000EFF829 /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28BCAE9B1D9CEF3000EFF829 /* ViewController.swift in Sources */,
+				28BCAEC91D9CF0E000EFF829 /* TableViewCell.swift in Sources */,
+				28BCAEC71D9CEFA500EFF829 /* CustomTableViewController.swift in Sources */,
 				28BCAE991D9CEF3000EFF829 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
